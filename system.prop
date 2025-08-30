@@ -1,2 +1,11 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+# Display
+persist.sys.brightness.low.gamma=true
+
+# Infinity-X Props
+ro.infinity.soc=Snapdragon®870
+ro.infinity.battery=5000mAh
+ro.infinity.display=2400x1080, 120Hz
+ro.infinity.camera=64MP + 8MP + 2MP, 16MP

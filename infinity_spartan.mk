@@ -12,14 +12,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/oneplus/spartan/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := spartan
+
+# Infinity-X Specific Flags
+INFINITY_BUILD_TYPE := OFFICIAL
+USE_MOTO_CALCULATOR := true
+TARGET_BUILD_VIMUSIC := true
+INFINITY_MAINTAINER := AbhiⓧAmrut
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := true
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
