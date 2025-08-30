@@ -1,4 +1,4 @@
-git clone https://github.com/DragonEmperor9480/android_device_oneplus_sm8250-common.git device/oneplus/sm8250-common
+git clone https://github.com/DragonEmperor9480/android_device_oneplus_sm8250-common.git device/oneplus/sm8250-common -b infinity
 
 git clone https://github.com/provasish/hardware_oplus.git hardware/oplus
 
