@@ -7,3 +7,7 @@ git clone https://github.com/provasish/proprietary_vendor_oneplus_sm8250-common.
 git clone https://github.com/provasish/proprietary_vendor_oneplus_spartan.git vendor/oneplus/spartan
 
 git clone https://github.com/provasish/android_kernel_oneplus_sm8250.git kernel/oneplus/sm8250
+
+git clone https://github.com/provasish/hardware_dolby hardware/dolby
+
+git clone https://gitlab.com/DragonEmperor9480/spartan-camera-latest.git vendor/oplus/camera
