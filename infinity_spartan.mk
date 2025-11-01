@@ -23,7 +23,7 @@ PRODUCT_MODEL := spartan
 
 # Infinity-X Specific Flags
 
-INFINITY_MAINTAINER := AbhiⓧAmrut
+INFINITY_MAINTAINER := Amrut
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
