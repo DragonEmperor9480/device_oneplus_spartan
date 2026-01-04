@@ -7,6 +7,9 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
+# Disable hidden Errors
+UNSAFE_DISABLE_HIDDENAPI_FLAGS=true
+
 DEVICE_PATH := device/oneplus/spartan
 
 # Display
